@@ -1,0 +1,37 @@
+Nome dos Integrante/s: Pedro Henrique Ferreira Araujo
+
+Descrição da Aplicação: 
+	Essa aplicação tem como objetivo auxiliar pessoas ou empresas que estejam procurando por locais com concentração de áreas verdes(vegetação) em áreas urbanas e grandes cidades. A finalidade é mitigar problemas relacionados ao aquecimento global, como a redução de altas temperaturas e melhoria da qualidade do ar, encontrando um lugar mais agradável para se morar ou estabelecer seu trabalho. 
+	O funcionamento consiste em o usuário utilizar uma aplicação web, onde é capaz de marcar um local no mapa e baixar uma imagem para que o servidor seja capaz de analisar se há vegetação no local.
+
+
+
+
+Instruções de Uso: Forneça um guia passo a passo sobre como utilizar a ferramenta, incluindo requisitos, instalação (se aplicável), e exemplos de uso.
+Descrição das Ferramentas Utilizadas: Liste e descreva todas as ferramentas de Inteligência Artificial e outras tecnologias utilizadas no desenvolvimento da POC.
+
+
+
+
+1) - Instalação de dependências
+
+pip install azure-cognitiveservices-vision-customvision msrest matplotlib pillow python-dotenv
+
+pip install image
+
+pip install python-dotenv
+
+pip install pillow
+
+pip install msrest
+
+pip install matplotlib
+
+
+
+2) - Como usar?
+	1- Abra o visual code
+	2- Execute a página index no seu navegador(Preferencia google chrome)
+	3- Com a aplicação aberta escolha um local desejado e clique com o mouse. É possível alterar o zom do mapa com (CTRL + roda mouse)
+	4- Depois de clicar no local desejado a aplicação exibira um prompt perguntando onde deseja salvar a imagem, salve a imagem na mesma pasta do programa(Vegetation), nomeie o arquivo para 'map.png'.
+	5- Agora, retorne ao visual code e abra o arquivo app.py, abra um terminal e execute o comando "Python .\app.py" ou clique na seta que fica localizada no canto superior direito a baixo do botão minimizar para executar o arquivo, se tudo ocorrer como planejado um novo arquivo com nome 'output.jpg' será criado dentro da pasta do programa e com a vegetação do local marcada em amarelo.   
