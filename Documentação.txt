@@ -8,7 +8,9 @@ Descrição da Aplicação:
 
 Instruções de Uso: 
 
+
 1) - Instalação de dependências
+Abra a pasta do programa no visual code e abra um terminal para instalar as dependências.
 
 pip install azure-cognitiveservices-vision-customvision msrest matplotlib pillow python-dotenv
 
