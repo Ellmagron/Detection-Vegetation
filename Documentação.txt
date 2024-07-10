@@ -17,6 +17,9 @@ Descrição das Ferramentas Utilizadas: Liste e descreva todas as ferramentas de
 
 pip install azure-cognitiveservices-vision-customvision msrest matplotlib pillow python-dotenv
 
+
+caso não funcione instale individualmente as dependências.
+
 pip install image
 
 pip install python-dotenv
