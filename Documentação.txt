@@ -6,12 +6,7 @@ Descrição da Aplicação:
 
 
 
-
-Instruções de Uso: Forneça um guia passo a passo sobre como utilizar a ferramenta, incluindo requisitos, instalação (se aplicável), e exemplos de uso.
-Descrição das Ferramentas Utilizadas: Liste e descreva todas as ferramentas de Inteligência Artificial e outras tecnologias utilizadas no desenvolvimento da POC.
-
-
-
+Instruções de Uso: 
 
 1) - Instalação de dependências
 
